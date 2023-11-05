@@ -1,0 +1,20 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,\r\n// then press Enter. You can now see whitespace characters in your code.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Привет!\");\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 8f1195e5c6c7775eb0ec1b83433a8cc92ab52ada)
++++ b/src/Main.java	(date 1699201738160)
+@@ -2,7 +2,7 @@
+ // then press Enter. You can now see whitespace characters in your code.
+ public class Main {
+     public static void main(String[] args) {
+-        System.out.println("Привет!");
++        
+ 
+     }
+ }
+\ No newline at end of file
