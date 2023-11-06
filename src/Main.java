@@ -30,11 +30,11 @@ public class Main {
         int age = 27;
         if (age >= 2 && age <= 6) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
-        } else if(age >= 7 && age <= 17) {
+        } else if (age >= 7 && age <= 17) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
-        } else if(age >= 18 && age <= 24) {
+        } else if (age >= 18 && age <= 24) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
-        } else if(age > 24){
+        } else if (age > 24) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
         }
 
@@ -53,16 +53,28 @@ public class Main {
         int sittingPlace = 0;
         int standingPlace = 0;
 
-        if (capacityTrain > 0){
-            if (sittingPlace > 0){
+        if (capacityTrain > 0) {
+            if (sittingPlace > 0) {
                 System.out.println("Есть сидячие места");
             }
-            if (standingPlace > 0){
+            if (standingPlace > 0) {
                 System.out.println("Есть стоячие места ");
             }
-        }
-        else {
+        } else {
             System.out.println("Мест нет");
+        }
+
+        //Задача 7
+        System.out.println("7 Task");
+        int one = 6;
+        int two = 3;
+        int three = 9;
+        if (one > two && one > three) {
+            System.out.println("Первая цифра больше остальных.");
+        } else if (two > one && two > three) {
+            System.out.println("Вторая цифра больше остальных.");
+        } else if (three > one && three > two) {
+            System.out.println("Третья цифра больше остальных.");
         }
     }
 }
